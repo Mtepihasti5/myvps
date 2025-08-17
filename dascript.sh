@@ -16,7 +16,7 @@ echo "🔐 Setting up VNC password..."
 vncserver :1
 vncserver -kill :1
 
-echo "🖼️ Starting VNC with resolution 1280x800..."
-vncserver :1 -geometry 1280x800
+echo "🖼️ Starting VNC with resolution 1920x1080..."
+vncserver :1 -geometry 1920x1080
 
 echo "✅ Done! Forward port 5901 in GoormIDE and connect via VNC Viewer."
