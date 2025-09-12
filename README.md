@@ -1,19 +1,46 @@
-# 🧠 MyVPS Scripts by Mtepihasti5
+# MyVPS — Scripts by Mtepihasti5
 
-Welcome to my personal script collection!  
-This repo contains Bash scripts I use to manage and automate tasks on my **GoormIDE "VPS"** and **GitHub Workspaces**.
+MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-style environments (GoormIDE, GitHub Codespaces) and general Linux VPS/PC systems. The scripts automate tasks like installing a desktop + VNC, basic system tweaks, IP detection, and simple security tools.
 
-## 🚀 What's Inside
+## What’s included
+- VNC + desktop environment setup (GNOME or Xfce) with LightDM
+- Public IP detection using icanhazip.com
+- System tweaks and automation scripts
+- Basic security and access utilities
 
-- 🖥️ VNC setup with GNOME (or Xfce) with LightDM
-- 📡 IP detection via icanhazip.com
-- 🧰 System tweaks and automation
-- 🔐 Security and access tools
+## Quick start
+1. Clone the repository:
+   git clone https://github.com/Mtepihasti5/myvps.git
+2. Enter the directory:
+   cd myvps
+3. List available scripts:
+   ls -1
+4. Run a setup script (example):
+   sudo bash setup-vnc.sh
 
-## 🛠️ How to Use
+## Recommended environment
+- Debian/Ubuntu-based distributions (most tested)
+- GitHub Codespaces or GoormIDE for quick demos
+- sudo/root access is required for installation scripts
 
-You can clone this repo and run the scripts inside your own GoormIDE container or any Linux VPS or PC:
-## More things ##
-You can create a codespace off it and make a FREE "VPS" with VNC
-If you have any questions, open an issue or message me on matko3tpih on discord, or send an EEEEEEEEEEEEEEEEEEEEEEEEEEEEE-Mail at tepihtepih54321@gmail.com
-Pun intended at Line 18
+## Scripts (examples)
+- setup-vnc.sh — install and configure VNC server, desktop (GNOME/Xfce) and LightDM
+- get-ip.sh — fetch public IP from icanhazip.com
+- system-tweaks.sh — apply basic system optimizations and settings
+- security-tools.sh — install/configure basic security utilities
+
+## Security notes
+- Always review scripts before running (cat, less, or open in an editor).
+- Scripts require elevated privileges — run only on systems you control or trust.
+- If you prefer, I can remove or obfuscate personal contact info before making this README public.
+
+## Contributing
+Contributions welcome. Open an issue or submit a pull request with improvements or new scripts.
+
+## Contact
+- GitHub: https://github.com/Mtepihasti5
+- Discord: matko3tpih
+- Email: tepihtepih54321@gmail.com
+
+## License
+MIT — feel free to use and adapt; please retain attribution.
