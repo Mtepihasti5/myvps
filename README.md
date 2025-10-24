@@ -15,24 +15,16 @@ MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-
    cd myvps
 3. List available scripts:
    ls -1
-4. Run a setup script (example):
-   sudo bash setup-vnc.sh
+4. Run a setup script
 
 ## Recommended environment
 - Debian/Ubuntu-based distributions (most tested)
 - GitHub Codespaces or GoormIDE for quick demos
 - sudo/root access is required for installation scripts
 
-## Scripts (examples)
-- setup-vnc.sh — install and configure VNC server, desktop (GNOME/Xfce) and LightDM
-- get-ip.sh — fetch public IP from icanhazip.com
-- system-tweaks.sh — apply basic system optimizations and settings
-- security-tools.sh — install/configure basic security utilities
-
 ## Security notes
 - Always review scripts before running (cat, less, or open in an editor).
 - Scripts require elevated privileges — run only on systems you control or trust.
-- If you prefer, I can remove or obfuscate personal contact info before making this README public.
 
 ## Contributing
 Contributions welcome. Open an issue or submit a pull request with improvements or new scripts.
@@ -43,4 +35,4 @@ Contributions welcome. Open an issue or submit a pull request with improvements 
 - Email: tepihtepih54321@gmail.com
 
 ## License
-MIT — feel free to use and adapt; please retain attribution.
+MIT — feel free to use and adapt; please retain attribution and put me in credits.
