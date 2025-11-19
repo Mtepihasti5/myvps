@@ -1,6 +1,6 @@
 # MyVPS — Scripts by Mtepihasti5
 
-MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-style environments (GoormIDE, GitHub Codespaces) and general Linux VPS/PC systems. The scripts automate tasks like installing a desktop + VNC, basic system tweaks, IP detection, and simple security tools.
+MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-style environments and general Linux VPS/PC systems. The scripts automate tasks like installing a desktop + VNC, basic system tweaks, IP detection, and simple security tools.
 
 ## What’s included
 - VNC + desktop environment setup (GNOME or Xfce) with LightDM
@@ -18,9 +18,9 @@ MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-
 4. Run a setup script
 
 ## Recommended environment
-- Debian/Ubuntu-based distributions (most tested)
-- GitHub Codespaces or GoormIDE for quick demos
-- sudo/root access is required for installation scripts
+- Debian/Ubuntu-based distributions ONLY
+- Cheap or free VPS or your own PC for quick demos
+- sudo/root access is required for (most) installation scripts
 
 ## Security notes
 - Always review scripts before running (cat, less, or open in an editor).
@@ -30,9 +30,9 @@ MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-
 Contributions welcome. Open an issue or submit a pull request with improvements or new scripts.
 
 ## Contact
-- GitHub: https://github.com/Mtepihasti5
 - Discord: matko3tpih
 - Email: tepihtepih54321@gmail.com
+- Whatsapp +385919404880
 
 ## License
-MIT — feel free to use and adapt; please retain attribution and put me in credits.
+MIT — feel free to use and adapt; please retain attribution and put me in credits when using.
