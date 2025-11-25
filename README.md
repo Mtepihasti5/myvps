@@ -1,6 +1,6 @@
 # MyVPS — Scripts by Mtepihasti5
 
-MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-style environments and general Linux VPS/PC systems. The scripts automate tasks like installing a desktop + VNC, basic system tweaks, IP detection, and simple security tools.
+MyVPS is a collection of Bash scripts used to set up and manage general Linux VPS/PC systems. The scripts automate tasks like installing a desktop + VNC, basic system tweaks, IP detection, and simple security tools.
 
 ## What’s included
 - VNC + desktop environment setup (GNOME or Xfce) with LightDM
@@ -24,7 +24,7 @@ MyVPS is a collection of Bash scripts used to set up and manage lightweight VPS-
 
 ## Security notes
 - Always review scripts before running (cat, less, or open in an editor).
-- Scripts require elevated privileges — run only on systems you control or trust.
+- Scripts (sometimes) require elevated privileges — run only on systems you control or trust.
 
 ## Contributing
 Contributions welcome. Open an issue or submit a pull request with improvements or new scripts.
@@ -35,4 +35,6 @@ Contributions welcome. Open an issue or submit a pull request with improvements 
 - Whatsapp +385919404880
 
 ## License
-MIT — feel free to use and adapt; please retain attribution and put me in credits when using.
+MIT — feel free to use and adapt; please retain attribution and plz put me in credits when using if yo ass is re-distubuting.
+NO RE-DISTRIBUTING UNLESS I AM IN CREDITS, AND YOU ASK FOR PERMISSION
+
