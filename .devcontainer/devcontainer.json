@@ -1,0 +1,4 @@
+{
+  "image": "ghcr.io/devcontainers/features/sshd:1",
+  "features": {}
+}
