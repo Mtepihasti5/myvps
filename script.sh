@@ -16,7 +16,7 @@ echo "🔐 Setting up VNC password..."
 vncserver :1
 vncserver -kill :1
 
-echo "🖼️ Starting VNC with resolution 1280x800..."
-vncserver :1 -geometry 1280x800
+echo "🖼️ Starting VNC with resolution 1280x720..."
+vncserver :1 -geometry 1280x720
 
-echo "✅ Done! Forward port 5901 in GoormIDE or Ports in VS Code on a workspace in github workspaces and connect via VNC Viewer."
+echo "✅ Done! Forward port 5901  in Ports in VS Code on a workspace in github workspaces and connect via VNC Viewer."
